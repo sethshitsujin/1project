@@ -4,8 +4,13 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+  background-image: url("../styles/image/designer_1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+ 
 }
+
 
 ul {
   margin: 0;
@@ -17,12 +22,13 @@ ul {
   padding: 4px 30px;
   text-align: center;
   border-radius: 2px;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .btn:hover {
   cursor: pointer;
-  background: rgb(75, 35, 218);
+  background: #505f98;
+
 }
 
 .btn-primary {
@@ -33,7 +39,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  outline: 1px solid red;
+  outline: 1px ;
   height: 1000px;
 }
 
@@ -42,7 +48,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding-top: 18px;
-  outline: 1px solid red;
+  outline: 1px ;
 }
 
 .header-list {
@@ -73,4 +79,45 @@ ul {
 
 .btn-buy {
   width: 160px;
+}
+.hero-content
+{
+  margin-right: 600px;
+  margin-top: 170px;
+}
+.title
+{ 
+align-items: center;
+font-weight: 500;
+font-size: 50px;
+line-height: 66px;
+color: #091133;
+}
+.content
+{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+  margin-top: 50px;
+}
+
+.button
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.btn-purchase
+{
+  width: 190px;
+}
+.btn-learn
+{
+  width: 190px;
+  margin-left: 30px;
+  color: #091133 ;
+  font-weight: 500;
+  border: 2px solid #091133;
+  text-align: center;
 }
