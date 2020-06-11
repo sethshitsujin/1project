@@ -4,17 +4,23 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif; 
-  background-image: url("../styles/image/designer_1.png");
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../styles/image/designer_1.png');
   background-repeat: no-repeat;
   background-position: right;
- 
 }
-
 
 ul {
   margin: 0;
   padding: 0;
+}
+
+.text {
+  color: #505f98;
+}
+
+.title {
+  color: #091133;
 }
 
 .btn {
@@ -27,8 +33,6 @@ ul {
 
 .btn:hover {
   cursor: pointer;
-  background: #505f98;
-
 }
 
 .btn-primary {
@@ -36,11 +40,22 @@ ul {
   color: #fff;
 }
 
+.btn-outline {
+  color: #091133;
+  border: 2px solid #091133;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  outline: 1px ;
-  height: 1000px;
+  outline: 1px;
+}
+
+.header-section {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 388px;
 }
 
 .header {
@@ -48,7 +63,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding-top: 18px;
-  outline: 1px ;
+  outline: 1px;
 }
 
 .header-list {
@@ -77,47 +92,80 @@ ul {
   font-size: 26px;
 }
 
-.btn-buy {
+.header-content {
+  width: 540px;
+}
+
+.header-title {
+  font-size: 50px;
+  line-height: 66px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.header-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.header-texts {
+  margin-bottom: 69px;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-btn {
+  line-height: 28px;
+  height: 36px;
+}
+
+.learn-more-btn {
+  margin-left: 30px;
+}
+
+/* .btn-buy {
   width: 160px;
 }
-.hero-content
-{
+
+.section {
+  min-height: 400px;
+  outline: 1px solid red;
+}
+
+.hero-content {
   margin-right: 600px;
   margin-top: 170px;
 }
-.title
-{ 
-align-items: center;
-font-weight: 500;
-font-size: 50px;
-line-height: 66px;
-color: #091133;
+.title {
+  align-items: center;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  color: #091133;
 }
-.content
-{
+.content {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  color: #505F98;
+  color: #505f98;
   margin-top: 50px;
 }
 
-.button
-{
+.button {
   display: flex;
   flex-direction: row;
   margin-top: 60px;
 }
-.btn-purchase
-{
+.btn-purchase {
   width: 190px;
 }
-.btn-learn
-{
+.btn-learn {
   width: 190px;
   margin-left: 30px;
-  color: #091133 ;
+  color: #091133;
   font-weight: 500;
   border: 2px solid #091133;
   text-align: center;
-}
+} */
